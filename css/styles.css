@@ -82,8 +82,6 @@
 
 .hero {
   background-color: var(--back-color);
-  width: 1600px;
-  height: 600px;
 }
 
 .hero-title {
@@ -101,8 +99,6 @@
   border-color: var(--accent-color);
   border-radius: 4px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  width: 200px;
-  height: 50px;
   text-align: center;
   margin-top: 30px;
   text-decoration: none;
@@ -111,6 +107,7 @@
 .hero-button:focus {
 }
 .hero-button-text {
+  color: var(--general-second-color);
   display: inline-block;
   text-align: center;
   line-height: 30px;
@@ -215,8 +212,6 @@
 
 .footer {
   background: var(--back-color);
-  width: 1600px;
-  height: 252px;
 }
 .footer-img {
   padding-left: 215px;
