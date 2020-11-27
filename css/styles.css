@@ -99,21 +99,18 @@
   border-color: var(--accent-color);
   border-radius: 4px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  text-align: center;
-  margin-top: 30px;
-  text-decoration: none;
 }
 .hero-button:hover,
-.hero-button:focus {
+.hero-button:focus,
+.hero-button-link:hover {
+  background: #2196f3;
 }
 .hero-button-text {
   color: var(--general-second-color);
-  display: inline-block;
   text-align: center;
-  line-height: 30px;
-  padding-bottom: 10px;
-  padding-top: 10px;
-  letter-spacing: 0.06em;
+}
+.hero-button-link {
+  text-decoration: none;
 }
 
 /*opportunity*/
