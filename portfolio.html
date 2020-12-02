@@ -7,39 +7,42 @@
     <link rel="stylesheet" href="./css/styles.css">
     <link rel="stylesheet" href="./css/common.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
+        integrity="sha512-ISS7cAi1PEhQ8jnbJpJZMd29NlhNj4AWYyLOSp2CE/CsHxTCu+r+t0D2yoJudVrd0/8fTVPUVDzY5Tvli75u/g=="
+        crossorigin="anonymous" />
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;900&display=swap" rel="stylesheet">
     <title>Document</title>
 </head>
 
 <body>
     <header class="header">
-    
-    
-        <a class="logo" href="./index.html">
-            <img class="logo-img" src="./images/logo.svg" width="145" class="logo-up" alt="WebStudio" />
-        </a>
-        <nav class="navigation">
-            <ul class="navigation-list">
-                <li class="navigation-list-item">
-                    <a class="navigation-link" href="./index.html">Студия</a>
-                </li>
-                <li class="navigation-list-item">
-                    <a class="navigation-link" href="./portfolio.html">Портфолио</a>
-                </li>
-                <li class="navigation-list-item">
-                    <a class="navigation-link" href="">Контакты</a>
-                </li>
-            </ul>
-        </nav>
-        <address class="address-top">
-            <a class="header-mail" href="mailto:info@devstudio.com">info@devstudio.com</a>
-            <a class="header-tel" href="tel:+38 096 111 11 11">+38 096 111 11 11</a>
-        </address>
-    
+            <div class="container">
+                <a class="logo" href="./index.html">
+                    <img class="logo-img" src="./images/logo.svg" width="145" class="logo-up" alt="WebStudio" />
+                </a>
+                <nav class="navigation">
+                    <ul class="navigation-list">
+                        <li class="navigation-list-item">
+                            <a class="navigation-link" href="./index.html">Студия</a>
+                        </li>
+                        <li class="navigation-list-item">
+                            <a class="navigation-link" href="">Портфолио</a>
+                        </li>
+                        <li class="navigation-list-item">
+                            <a class="navigation-link" href="">Контакты</a>
+                        </li>
+                    </ul>
+                </nav>
+                <address class="address-top">
+                    <a class="header-mail" href="mailto:info@devstudio.com">info@devstudio.com</a>
+                    <a class="header-tel" href="tel:+38 096 111 11 11">+38 096 111 11 11</a>
+                </address>
+            
+            </div>
     
     
     </header>
-    <main>
+    <main class="main-portfolio">
         <section class="menu">
             <nav class="menu-nav">
                 
@@ -75,7 +78,7 @@
         </section>
 
         <section class="portfolio">
-            <nav>
+            <nav >
                 <ul class="portfolio-list">
                     <li class="portfolio-list-item">
                         <img class="portfolio-img" src="./images-portf/imgt.jpg" width="370" height="294" alt="">
@@ -107,7 +110,7 @@
                         <h4 class="portfolio-title">Inspiration has no Borders</h4>
                         <p class="portfolio-paragraph">Веб-сайт</p>
                     </li>
-                    <li class="portfolio-list-item">
+                   <li class="portfolio-list-item">
                         <img class="portfolio-img" src="./images-portf/img7.jpg" width="370" height="294" alt="">
                         <h4 class="portfolio-title">Издание Limited Edition</h4>
                         <p class="portfolio-paragraph">Дизайн</p>
@@ -128,19 +131,18 @@
     </main>
 
     <footer class="footer">
+        <div class="footer-studio">
     
-        <img class="footer-img" src="./images/logofoot.svg" alt="WebStudio" />
-        <address class="footer-map">
-            г. Киев, пр-т Леси Украинки, 26
-        </address>
+            <img class="footer-img" src="./images/logofoot.svg" alt="WebStudio" />
+            <address class="footer-map">
+                г. Киев, пр-т Леси Украинки, 26
+            </address>
     
-        <address class="address-link">
-            <a class="footer-mail" href="mailto:info@example.com">info@example.com</a>
-            <div class="footer-telefon">
+            <address class="address-link">
+                <a class="footer-mail" href="mailto:info@example.com">info@example.com</a>
                 <a class="footer-tel" href="tel:+38 099 111 11 11">+38 099 111 11 11</a>
-            </div>
-        </address>
-    
+            </address>
+        </div>
     </footer>
 </body>
 
