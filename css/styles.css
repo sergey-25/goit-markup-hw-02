@@ -2,6 +2,7 @@
 .body {
   background-color: #fff;
   font-family: 'Roboto', sans-serif;
+  align-items: center;
 }
 :root {
   --general-color: #212121;
@@ -48,6 +49,7 @@ img {
   padding-bottom: 32px;
   align-items: center;
   display: flex;
+  width: 1600px;
 }
 
 .logo {
@@ -124,8 +126,11 @@ img {
 }
 .hero {
 }
-
+.container-main {
+  width: 1600px;
+}
 .hero-title {
+  display: block;
   font-family: Roboto;
   font-weight: 900;
   font-size: 44px;
@@ -149,7 +154,7 @@ img {
   width: 200px;
   min-height: 50px;
   margin-left: 700px;
-
+  display: block;
   margin-top: 30px;
 }
 .hero-button:hover,
@@ -206,6 +211,7 @@ img {
 .warks {
   width: 1170px;
   margin: 0 auto;
+  margin-left: 230px;
 }
 .works-title {
   font-family: Roboto;
@@ -297,6 +303,7 @@ img {
 /* footer*/
 
 .footer {
+  width: 1600px;
 }
 .footer-img {
   padding-bottom: 20px;
@@ -349,8 +356,12 @@ img {
 }
 
 /*portfolio*/
+.container-portfolio {
+  width: 1600px;
+}
 
 .menu {
+  width: 1170px;
 }
 .menu-nav {
 }
@@ -360,11 +371,14 @@ img {
   padding-top: 82px;
   padding-bottom: 32px;
   align-items: center;
-  display: flex;
-  width: 1230px;
   align-content: stretch;
-  padding-left: 300px;
 }
+.container-port-nav {
+  width: 611px;
+  display: flex;
+  margin-left: 434px;
+}
+
 .nav-list-item {
   margin-right: 8px;
 }
@@ -422,11 +436,14 @@ img {
 
 .portfolio {
   margin-bottom: 106px;
+  width: 1600px;
 }
 .portfolio-list {
   list-style: none;
   display: flex;
   flex-wrap: wrap;
+  width: 1170px;
+  padding: 0 auto;
 }
 .portfolio-list-item {
   margin-right: 30px;
@@ -460,6 +477,18 @@ img {
 }
 
 .main-portfolio {
-  width: 1230px;
+  width: 1600px;
   margin: 0 auto;
+}
+.firs-line {
+  display: flex;
+  margin-left: 154px;
+}
+.second-line {
+  display: flex;
+  margin-left: 154px;
+}
+.therd-line {
+  display: flex;
+  margin-left: 154px;
 }
