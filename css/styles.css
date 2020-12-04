@@ -32,6 +32,7 @@ img {
   width: 1600px;
   margin: 0 auto;
   background-color: var(--back-color);
+  background-image: url('/images/hero.jpg');
   min-height: 600px;
 }
 .container-back-bottom {
@@ -50,6 +51,7 @@ img {
   align-items: center;
   display: flex;
   width: 1600px;
+  border-bottom: 1px solid #ececec;
 }
 
 .logo {
@@ -87,9 +89,10 @@ img {
 }
 .address-top {
   display: flex;
-  margin-left: auto;
+  margin-left: 305px;
 }
 .header-mail {
+  display: inline;
   font-family: Roboto;
   font-style: normal;
   font-weight: 500;
@@ -99,6 +102,13 @@ img {
   color: var(--paragraph-color);
   text-decoration: none;
   margin-right: 50px;
+}
+.header-mail::before {
+  background-image: url('/images/envelope.svg');
+  background-repeat: no-repeat;
+}
+.header-mail::after {
+  background-image: url('/images/envelope_hover.svg');
 }
 .header-tel {
   font-family: Roboto;
