@@ -24,7 +24,9 @@ img {
 .container {
   display: flex;
   align-items: center;
-  width: 1170px;
+  width: 1230px;
+  padding-right: 15px;
+  padding-left: 15px;
   margin: 0 auto;
 }
 .container-back-top {
@@ -111,6 +113,7 @@ img {
   background-image: url('/images/envelope_hover.svg');
 }
 .header-tel {
+  display: inline;
   font-family: Roboto;
   font-style: normal;
   font-weight: 500;
@@ -183,7 +186,7 @@ img {
 /*opportunity*/
 
 .opportunity {
-  width: 1170px;
+  width: 1200px;
   margin: 0 auto;
   margin-top: 94px;
 }
@@ -501,4 +504,60 @@ img {
 .therd-line {
   display: flex;
   margin-left: 154px;
+}
+.team-sosial {
+  list-style: none;
+  display: flex;
+}
+.team-sosial-item {
+  width: 44px;
+  height: 44px;
+}
+.team-button {
+  border-radius: 50%;
+  width: 44px;
+  height: 44px;
+  display: block;
+  text-align: center;
+}
+.team-button:hover {
+  background-color: #2196f3;
+  cursor: pointer;
+}
+.team-button-icon {
+  fill: #afb1b8;
+  width: 20px;
+  height: 20px;
+  margin-top: 10px;
+}
+
+.team-button-icon:hover {
+  fill: white;
+  cursor: pointer;
+}
+.container-links {
+  width: 206px;
+  margin: auto;
+}
+.mail-icon {
+  fill: #757575;
+  width: 16px;
+  height: 12px;
+}
+.mail-icon-tel {
+  fill: #757575;
+  width: 10px;
+  height: 16px;
+}
+.mail-icon-tel:hover {
+  fill: #2196f3;
+  cursor: pointer;
+}
+.mail-icon:hover {
+  fill: #2196f3;
+  cursor: pointer;
+}
+.info-icon-top {
+  display: inline;
+  margin-right: 10px;
 }
